@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+
+    width: 100%;
+    height: 100vh;
+    background-color: #007BFF;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 25rem;
+    width: 30rem;
+    background-color: #fff;
+    border-radius: .3rem;
+}
+
+.heading-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.heading-div span{
+    background-color: #CCE5FF;
+    padding: .4rem;
+    border-radius: .2rem;
+    color: #729DC5;
+    font-weight: 700;
+}
+.heading-div span time{
+    background-color: #343A40;
+    padding: 3px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+progress{
+    width: 95%;
+    height: .3rem;
+    margin: 0 10px;
+}
+
+.qustion-answer-section{
+    display: grid;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.input{
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #F0F8FF;
+    border:2px solid #E6F3FF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input:focus {
+
+    outline: none;
+}
+
+.bottom-text{
+    display: flex;
+    justify-content: space-around;
+}
+.input.input.correct{
+    background-color: #7fca90e7;
+}
+.In__correct{
+    background-color: #F8D7DA;
+}
+
+
+.bottom-text button{
+    background-color: #007BFF;
+    color: #fff;
+    border: 0;
+    padding: 5px;
+    font-weight: 900;
+    border-radius: .3rem;
+    cursor: pointer;
+}

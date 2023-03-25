@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App in js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- container -->
+
+    <section>
+        <!-- main container for content  -->
+<main>
+    <!-- div for heading -->
+    <div class="heading-div">
+        <h3>Awesome Quiz Application</h3>
+        <span>Time Left <time>00</time></span>
+    </div>
+    <!-- progress Bar -->
+    <progress value="0" max="5"></progress>
+    <!-- Question Answer section -->
+    <div class="qustion-answer-section">
+        <h2 id="Question">Majid ?</h2>
+        <input id="input1" class="input" readonly value=" &#10004;">
+        <input id="input2" class="input" readonly value=" &#10006;">
+        <input id="input3" class="input " readonly value="">
+        <input id="input4" class="input" readonly value="">
+    </div>
+    <!-- bottom are  -->
+    <div class="bottom-text">
+    <span id="countquiz">1 of 5 Question</span>
+    
+<button id="next">Next Question</button></div>
+</main>
+    </section>
+    <!-- JS Link -->
+    <script src="app.js"></script>
+</body>
+</html>
